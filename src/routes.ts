@@ -23,7 +23,7 @@ routes.post('/feedbacks', async (req: Request, res: Response) => {
             comment,
             screenshot
         })
-        
+
         return res.status(201).send()
     } catch(err) {
         console.log(err)
